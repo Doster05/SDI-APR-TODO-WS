@@ -2,12 +2,10 @@
 //* Description - DOM Based TODO List *//
 //* Date - 5/08/26                   *//
 
-//I Miss doing the author thing Mrs.Hefton taught me back in hs so ima do it here since I cant at work 
-
 //TODO 1 - Connect and get the Input add it to a array STATUS - FINISHED
 //TODO 2 - Display the array and make them buttons / hoverable and clickable use #C74F54 for the color STATUS - FINISHED
 //TODO 3 - Make the array not scuffed make it actually like delete and not go 1,2,3 on the same line STATUS - FINISHED
-//TODO 4 - Maybe verify input further could keep a user save so it can be reloaded like in the techschool one? so the page can be reloaded? idk if possible in js tho as I did all that in python at the time STATUS - UNKNOWN? 
+//TODO 4 - Maybe verify input further could keep a user save so it can be reloaded like in the techschool one? so the page can be reloaded? idk if possible in js tho as I did all that in python at the time STATUS - FINISHED 
 
 var itemArray = []; //Lowkey this is scuffed but idc
 var completedItemArray = [];
