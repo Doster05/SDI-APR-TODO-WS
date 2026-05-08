@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     align-items: center;
     color: #E09789;
+    /* I cant decide if i want top margin or not cant tell what looks better */
 }
 
 #textEntrance,
@@ -18,6 +19,7 @@ body{
     margin: 0 auto;
     height: 30px;
     min-width: 250px;
+    color: #5C4033;
 }
 
 #container{
@@ -27,6 +29,7 @@ body{
     align-items: center;
 }
 
+/*? Had to look these two up wasnt sure how to make a button look like text thankfully Stack Overflow does */
 .textButton {
   background: none;
   border: none;
@@ -34,9 +37,10 @@ body{
   font: inherit;
   cursor: pointer;
   margin: 5px;
+  color: #5C4033;
 }
 
 .textButton:hover {
-    background-color: #F5D4C3;
+    background-color: #f7d1be;
 }
 

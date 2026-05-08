@@ -8,8 +8,10 @@
 //TODO 4 - Maybe verify input further could keep a user save so it can be reloaded like in the techschool one? so the page can be reloaded? idk if possible in js tho as I did all that in python at the time STATUS - UNKNOWN? 
 
 const itemArray = [] //Lowkey this is scuffed but idc
+// sessionStorage.setItem("userSesstionData", JSON.stringify(itemArray));
+// itemArray = sessionStorage.getItem('userSesstionData') these pop instantly and is fucked way of doing this make it listen for reload somehow
 
-//Lowkey had to look this one up as it was bugging me I couldnt just hit enter 
+//? Lowkey had to look this one up as it was bugging me I couldnt just hit enter 
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('#textEntrance').addEventListener('keydown', (e) => {
         if (e.key === 'Enter'){ 
@@ -41,6 +43,7 @@ function inputError(){
     inputElement.style.caretColor = 'transparent';
     inputElement.readOnly = true;
     
+    //? Had to look up how to do sleep in js this is p much it but unsure if this would cause issues later down no clue so doesnt matter
     setTimeout(() => {
         inputElement.placeholder = 'Enter new item...';
         inputElement.style.color = '';
