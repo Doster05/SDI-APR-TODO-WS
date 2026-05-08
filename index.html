@@ -11,6 +11,17 @@
     <h1 id="bigWord">TODO List</h1>
     <input id="textEntrance" type="text" placeholder="Enter new item...">
     <input id="listEntrance" type="submit" value="Submit Item" onclick="getItems()">
-    <div id="container"></div>
+    
+    <div id="mainContainer">
+        <div class="columnWrapper">
+            <h3 id="activeHeader">Active</h3>
+            <div id="containerActive"></div>
+        </div>
+
+        <div class="columnWrapper">
+            <h3 id="completedHeader">Completed</h3>
+            <div id="containerCompleted"></div>
+        </div>
+    </div>
 </body>
 </html>
