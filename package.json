@@ -1,0 +1,24 @@
+{
+  "name": "sdi-apr-todo-ws",
+  "version": "1.0.0",
+  "description": "TODO List",
+  "homepage": "https://github.com/Doster05/SDI-APR-TODO-WS#readme",
+  "bugs": {
+    "url": "https://github.com/Doster05/SDI-APR-TODO-WS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doster05/SDI-APR-TODO-WS.git"
+  },
+  "license": "ISC",
+  "author": "Darrion Oster",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "live-server ."
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}

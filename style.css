@@ -1,0 +1,42 @@
+body{
+    background-color: #F6EFE7;
+}
+
+#bigWord 
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #E09789;
+}
+
+#textEntrance,
+#listEntrance {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    min-width: 250px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textButton {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.textButton:hover {
+    background-color: #F5D4C3;
+}
+
